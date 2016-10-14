@@ -6,10 +6,13 @@ A copy of Kevin Albrecht's mirror at http://www.kevinalbrecht.com/code/joy-mirro
 * If you care about the continuation of Joy and you consider the code base hackable, feel free to fork and maintain it
 
 * I also play with a Joy-like language in Javascript here: [sad coffee](https://github.com/xieyuheng/sad-coffee)
+
 ## Dependencies
   Joy uses the [Boehm-Demers-Weiser Garbage Collector](https://github.com/ivmai/bdwgc). Since the repository is so big, I opted to use commit `7aba59b5853330c9368bc16dd606e1617c704334` located in the `src` directory here.
+  
 ## Building
 To build the Joy interpreter, use `make`.
+
 ## Lib structure
 * joy library
   * usrlib.joy -- personal user library, loaded by default
