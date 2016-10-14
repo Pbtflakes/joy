@@ -1,40 +1,24 @@
------------------------------------
-
-backup of the joy programming language
+# Joy website backup
 
 a copy of http://www.kevinalbrecht.com/code/joy-mirror/joy.html
 
------------------------------------
+## Notes
+* The code base is not clean in my view, thus I do not maintain this implementation. I just learn from the design of the language
 
-* note that
-  the code base is not clean in my view
-  thus I do not maintain this implementation
-  I just learn from the design of the language
+* If you care about the continuation of Joy and you consider the code base hackable, feel free to fork and maintain it
 
-* if you care about the life of joy language
-  and you consider the code base hackable
-  do a fork and maintain it
-
-* I also play with a joy-like language in js
-  here : https://github.com/xieyuheng/sad-coffee
+* I also play with a Joy-like language in Javascript here: [sad coffee](https://github.com/xieyuheng/sad-coffee)
 
 -----------------------------------
 
-* dependencies
-  joy use the following GC
-  https://github.com/ivmai/bdwgc
-  I do not use git submodule
-  for the repo is too big
-  instead the following commit is used
-  7aba59b5853330c9368bc16dd606e1617c704334
-  I simply include the source code into joy's src directory
+## Dependencies
+  Joy uses the [Boehm-Demers-Weiser Garbage Collector](https://github.com/ivmai/bdwgc). Since the repository is so big, I opted to use commit `7aba59b5853330c9368bc16dd606e1617c704334` located in the `src` directory here.
 
------------------------------------
+## Building
 
-to build the interpreter of joy
-just type make
+To build the Joy interpreter, use `make`.
 
------------------------------------
+## Lib structure
 
 * joy library
   * usrlib.joy -- personal user library, loaded by default
