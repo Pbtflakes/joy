@@ -2,7 +2,8 @@ language: c
 
 before_install:
   - sudo apt-get -qq update
-  - sudo apt-get install libatomic-ops
+  - sudo apt-get install libatomic-ops-dev
+
 script:
   - cd src
   - make
