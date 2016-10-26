@@ -11,6 +11,7 @@ A copy of Kevin Albrecht's mirror at http://www.kevinalbrecht.com/code/joy-mirro
   Joy uses the [Boehm-Demers-Weiser Garbage Collector](https://github.com/ivmai/bdwgc). Since the repository is so big, I opted to use commit `7aba59b5853330c9368bc16dd606e1617c704334` located in the `src` directory here.
   
 ## Building
+![Travis CI](https://travis-ci.org/Pbtflakes/joy.svg?branch=master)
 To build the Joy interpreter, use `make`.
 
 ## Lib structure
